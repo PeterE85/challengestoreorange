@@ -1,0 +1,25 @@
+@import 'variables';
+
+.navbar {
+  display: none;
+  // border: 1px solid red;
+  width: 400px;
+
+  &_items {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &_link {
+    text-decoration: none;
+    color: $Dark-grayish-blue;
+    padding: 42px 0;
+    &:hover {
+      border-bottom: 4px solid $Orange;
+    }  
+  }
+  @media (min-width: 1115px) {
+    display: block;    
+  }
+}

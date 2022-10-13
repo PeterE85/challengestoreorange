@@ -1,0 +1,26 @@
+@import 'initial';
+@import 'variables';
+@import 'header';
+@import 'navbar';
+@import 'modal-navbar';
+@import 'gallery';
+
+
+
+.main-container {
+  width: 375px;
+  border: 1px solid red;
+  margin: 0 auto;
+  position: relative;
+
+  @media (min-width: 1115px) {
+    width: 1115px;    
+  }
+}
+
+
+
+
+
+
+
